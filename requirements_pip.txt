@@ -1,5 +1,10 @@
--e ./scib
-git+https://github.com/theislab/scanpy@d69832a662bbb1047b06a081b789856b53a3931e
+git+git://github.com/theislab/scib
+scanpy==1.4.6
+git+git://github.com/danielStrobl/scanorama@patch-1
 gprofiler-official
-mnnpy
-git+https://github.com/theislab/trVAE
+mnnpy==0.1.9.5
+trvae==1.1.2
+tensorflow==1.15.*
+umap-learn==0.3.10
+desc==2.0.3
+keras==2.1
